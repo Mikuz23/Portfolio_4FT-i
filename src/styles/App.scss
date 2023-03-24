@@ -1,0 +1,74 @@
+@import './colors.scss';
+
+.App {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #eecb04;
+  color: black;
+
+  .footer-container {
+    display: flex;
+    max-width: 1110px;
+    justify-content: space-around;
+    margin: auto;
+  }
+}
+
+.app-navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(215, 67, 131);
+  color: white;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbar-items {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: crimson;
+
+  &:hover{
+    color: red;
+    font-size: 20px;
+  }
+}
+
+
+.app-navbar .navbar-items {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+
+}
+
+.steppa{
+  margin-left: 30rem;
+  margin-right: 3rem;
+  animation:2s spin infinite;
+}
+
+@keyframes spin {
+  
+  from {transform:rotate(20deg);}
+  to {transform:rotate(380deg);}
+}
+
+.steppa:hover{
+  animation: 3ms spin infinite;
+}
+
+.money:active{
+  visibility: visible;
+}
