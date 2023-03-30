@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import FavoriteIcon from 'C:/Users/Studente/Documents/Classe4f/portfolio-4fti/src/1.jpg';
-import Icon2 from 'C:/Users/Studente/Documents/Classe4f/portfolio-4fti/src/2.jpg';
+import FavoriteIcon from 'C:/Users/Studente/Documents/Classe4f/portfolio-4fti/src/castata.gif';
+import Icon2 from 'C:/Users/Studente/Documents/Classe4f/portfolio-4fti/src/tense.gif';
 
 const Corso = () => {
     const [favourite, setFavourite] = useState(true);

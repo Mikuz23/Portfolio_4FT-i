@@ -22,10 +22,10 @@ footer {
 .app-navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(215, 67, 131);
+  background-color: rgb(35, 30, 180); //215, 67, 131
   color: white;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 
 .navbar-items {
@@ -37,10 +37,10 @@ footer {
 
 .nav-links {
   text-decoration: none;
-  color: crimson;
+  color: greenyellow;
 
   &:hover{
-    color: red;
+    color: rgb(9, 255, 153);
     font-size: 20px;
   }
 }
