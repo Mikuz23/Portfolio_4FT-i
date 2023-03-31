@@ -72,3 +72,23 @@ footer {
 .money:active{
   visibility: visible;
 }
+.slotMachine{
+  display: grid; 
+  grid-template-columns: repeat(3,1fr);
+
+  
+}
+.set1:hover{
+  animation: 1ms animazione infinite;
+}
+.set2:hover{
+  animation: 1ms animazione infinite;
+}
+.set3:hover{
+  animation: 1ms animazione infinite;
+}
+@keyframes animazione {
+  
+  from {transform:rotatex(20deg);}
+  to {transform:rotatex(380deg);}
+}

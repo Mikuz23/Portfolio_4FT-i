@@ -21,6 +21,12 @@ export const MenuData = [
     cName: 'nav-links',
     icon: 'fa-solid fa-house-user',
   },
+  {
+    title: 'slot for kings',
+    url: '/slot',
+    cName: 'nav-links',
+
+  }
 ]
 
 export const SliderData = [
