@@ -22,7 +22,7 @@ export const MenuData = [
     icon: 'fa-solid fa-house-user',
   },
   {
-    title: 'slot for kings',
+    title: 'curati dalla ludopatia',
     url: '/slot',
     cName: 'nav-links',
 

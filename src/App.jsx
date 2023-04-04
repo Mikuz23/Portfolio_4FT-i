@@ -25,6 +25,7 @@ import Slot from './pages/Slot';
 
 
 
+
 const App = () => {
   return(
     <Router>
@@ -37,7 +38,8 @@ const App = () => {
           <Route exact path='/corso' element={<Corso />} />
           <Route exact path='/soldi' element={<Soldi />} />
           <Route exact path='/soldi2' element={<Soldi2 />} />
-          <Route exact path='/Slot' element={<Slot />} />
+          <Route exact path='/slot' element={<Slot />} />
+
         </Routes>
         <img src={skull} alt="gif" hight={140} width={140}></img>
         
